@@ -17,7 +17,7 @@ Variables
 	--clr-primary-light: #beed8c;
 	--clr-grey-1: #102a42;
 	--clr-grey-5: #617d98;
-	--clr-grey-1: #f1f5f8;
+	--clr-grey-10: #f1f5f8;
 	--clr-white: #fff;
 	--ff-primary: "Catamaran", sans-serif;
 	--ff-secondary: "Grand Hotel", cursive;
@@ -162,4 +162,36 @@ Header
 		#e9b949,
 		var(--clr-primary)
 	);
+}
+/*
+====================================
+skills
+====================================
+*/
+.skills {
+	background: var(--clr-grey-10);
+}
+.skill {
+	padding: 2.5rem;
+	text-align: center;
+	transition: var(--transition);
+}
+.skill-icon {
+	font-size: 2.5rem;
+	margin-bottom: 1.25rem;
+	transition: var(--transition);
+	display: inline-block;
+	color: var(--clr-primary);
+}
+.skill-text {
+	color: var(--clr-grey-5);
+	max-width: 17rem;
+	margin: 0 auto;
+}
+.skill:hover {
+	background: var(--clr-white);
+	box-shadow: 0 2px var(--clr-primary);
+}
+.skill:hover .skill-icon {
+	transform: translateY(-5px);
 }
