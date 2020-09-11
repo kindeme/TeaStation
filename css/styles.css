@@ -156,7 +156,9 @@ Header
 	font-size: 1.25rem;
 	padding: 1rem 1.7rem;
 }
+
 /* content-divider */
+
 .content-divider {
 	height: 0.5rem;
 	background: linear-gradient(
