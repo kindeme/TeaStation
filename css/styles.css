@@ -168,11 +168,13 @@ Header
 		var(--clr-primary)
 	);
 }
+
 /*
 ====================================
 skills
 ====================================
 */
+
 .skills {
 	background: var(--clr-grey-10);
 }
