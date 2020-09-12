@@ -116,6 +116,12 @@ p {
 	color: var(--clr-white);
 	background: var(--clr-primary-light);
 }
+.clearfix::after,
+.clearfix::before {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 /*
 ====================================
