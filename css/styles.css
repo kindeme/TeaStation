@@ -122,7 +122,16 @@ p {
 	display: table;
 	clear: both;
 }
-
+.section-title h3{
+	font-family: var(--ff-secondary);
+	color: var(--clr-primary);
+}
+.section-tittle{
+	margin-bottom: 2rem;
+}
+.sectiom-center{
+	padding: 4rem 0;
+}
 /*
 ====================================
 Header
@@ -220,3 +229,8 @@ skills
 		width: 25%;
 	}
 }
+/*
+====================================
+About
+====================================
+*/
