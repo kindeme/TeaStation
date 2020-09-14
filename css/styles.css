@@ -122,15 +122,25 @@ p {
 	display: table;
 	clear: both;
 }
-.section-title h3{
+.section-title h3 {
 	font-family: var(--ff-secondary);
 	color: var(--clr-primary);
 }
-.section-tittle{
+.section-tittle {
 	margin-bottom: 2rem;
 }
-.sectiom-center{
+.section-center {
 	padding: 4rem 0;
+	width: 85vw;
+	margin: 0 auto;
+	max-width: 1170px;
+}
+@media screen and(min-width:992px){
+	.section-center {
+	padding: 4rem 1rem;
+	width: 95vw;
+	
+}
 }
 /*
 ====================================
