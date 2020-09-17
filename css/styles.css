@@ -275,3 +275,18 @@ About
 		padding-left: 2rem;
 	}
 }
+
+/*
+====================================
+Products
+====================================
+*/
+.produts{
+	background: var(--clr-grey-10);
+}
+.products article{
+	padding:2rem 0;
+}
+.product-text{
+	color: var(--clr-grey-5);
+}
