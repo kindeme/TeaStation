@@ -337,3 +337,24 @@ Products
 		padding: 0 1rem;
 	}
 }
+/*
+====================================
+Services
+======
+==============================
+*/
+.services-title{
+margin-top:4rem;
+margin-bottom: -4rem;
+text-align: center;
+}
+.service-card{
+	margin: 2rem 0;
+	background: var(--clr-grey-10);
+	border-radius:var(--radius);
+	box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.service-card:hover{
+	box-shadow: 0 5px 15px rgba(0,0);
+}
+
