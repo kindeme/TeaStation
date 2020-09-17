@@ -308,6 +308,9 @@ Products
 	letter-spacing: var(--sapcing);
 	margin-bottom: 0.6rem;
 }
+.product-price {
+	letter-spacing: var(--sapcing);
+}
 @media screen and (min-width: 768px) {
 	.product {
 		float: left;
